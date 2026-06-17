@@ -69,3 +69,14 @@ Avoid:
 * Complex cloud infrastructure
 
 Always explain code and file purpose because the project owner is a beginner.
+
+
+## Secrets
+
+Never hardcode API keys.
+
+Use:
+- .env
+- .env.example
+
+API keys must never be committed.
