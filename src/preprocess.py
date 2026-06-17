@@ -135,7 +135,7 @@ def reindex_to_continuous_hours(df, city_name):
     df = df.set_index("Datetime")
 
     full_hourly_range = pd.date_range(
-        start=df.index.min(), end=df.index.max(), freq="H"
+        start=df.index.min(), end=df.index.max(), freq="h"
     )
     missing_hours = len(full_hourly_range) - len(df)
 

@@ -45,10 +45,12 @@ import json
 import joblib
 import datetime
 
+from dotenv import load_dotenv
+
 import requests
 import pandas as pd
 
-
+load_dotenv()
 # ---------------------------------------------------------------------------
 # 1. CONFIGURATION
 # ---------------------------------------------------------------------------

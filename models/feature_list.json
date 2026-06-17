@@ -1,0 +1,11 @@
+[
+  "hour",
+  "day_of_week",
+  "month",
+  "AQI",
+  "AQI_lag_1h",
+  "AQI_lag_3h",
+  "AQI_lag_6h",
+  "AQI_lag_12h",
+  "AQI_lag_24h"
+]
